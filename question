@@ -1,0 +1,55 @@
+Data Cleaning and Transformation:
+
+Scenario: You have a dataset with customer information, including columns like customer_id, name, address, email, and purchase_amount. The dataset contains missing values and duplicates.
+Tasks:
+Load the dataset into a PySpark DataFrame.
+Remove any duplicate records based on customer_id.
+Fill missing values in the address column with "Unknown".
+Remove records where purchase_amount is missing.
+Extract the domain from the email column and create a new column email_domain.
+Aggregations and GroupBy:
+
+Scenario: You have a sales dataset with columns transaction_id, product_id, customer_id, date, and amount.
+Tasks:
+Load the dataset into a PySpark DataFrame.
+Calculate the total sales amount per product.
+Find the top 5 products with the highest sales.
+Calculate the total sales per month.
+Identify the customer with the highest total purchases.
+Joining DataFrames:
+
+Scenario: You have two datasets, one with orders (columns: order_id, customer_id, order_date, amount) and another with customers (columns: customer_id, name, address).
+Tasks:
+Load both datasets into PySpark DataFrames.
+Perform an inner join to combine orders with customer information.
+Find the total order amount per customer.
+Identify customers who have not placed any orders.
+Calculate the average order amount per customer.
+Window Functions:
+
+Scenario: You have a dataset of employee salaries with columns employee_id, name, department, salary, and date_of_joining.
+Tasks:
+Load the dataset into a PySpark DataFrame.
+Calculate the rank of employees based on their salaries within each department.
+Find the top 3 highest-paid employees in each department.
+Calculate the cumulative sum of salaries for each department.
+Determine the average salary over the last 3 years for each employee.
+Data Exploration and Visualization:
+
+Scenario: You have a dataset with movie ratings (columns: user_id, movie_id, rating, timestamp).
+Tasks:
+Load the dataset into a PySpark DataFrame.
+Calculate the average rating for each movie.
+Find the movies with the highest and lowest average ratings.
+Identify the most active users (users who have rated the most movies).
+Create a time series plot of the number of ratings per month.
+Machine Learning with PySpark:
+
+Scenario: You have a dataset for a binary classification problem (e.g., predicting whether a customer will buy a product) with features feature1, feature2, ..., featureN, and a label column label.
+Tasks:
+Load the dataset into a PySpark DataFrame.
+Split the data into training and test sets.
+Train a logistic regression model using the training set.
+Evaluate the model on the test set using metrics such as accuracy, precision, recall, and F1-score.
+Tune the model's hyperparameters using cross-validation.
+These scenarios cover a broad range of PySpark functionalities, including data manipulation, aggregations, joins, window functions, exploratory data analysis, and machine learning. Working through these will help you gain practical experience and deepen your understanding of PySpark.
